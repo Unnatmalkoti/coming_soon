@@ -1,0 +1,122 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,500,700');
+
+body
+{
+	Background : #ff8008;
+	font-family: 'Roboto';
+	margin: 0px;
+	padding: 0px;
+}
+
+.Center
+{
+position: absolute;
+top: 50%;
+display: inline-block;
+transform: translate(0%,-50%);
+width: 100%;
+min-width: 1500px;
+
+}
+
+.left
+{
+	margin-left: 100px;
+	display: inline-block;
+}
+
+.right
+{
+	display: inline-block; 
+	position: absolute;
+	text-align: center;
+	right:15%;
+	left:60%;
+}
+
+h1
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-weight: bold;
+	font-size: 60pt;
+}
+
+h2
+{	margin-bottom: 0px;
+	margin-top: 0px;
+	font-weight: 500;
+	font-size: 50pt;
+}
+
+.text
+{
+	margin-top: 25px;
+	margin-bottom: 0px;
+	font-weight: 300;
+	font-size: 30pt;
+}
+
+.button
+{
+	
+	display: inline-block;
+	background-color: black;
+	text-decoration: none;
+	font-size: 14px;
+	color :white;
+	padding: 15px 32px;
+	min-width: 95px;
+	vertical-align: center;
+	text-align: center;
+	cursor: pointer;
+	border: none;
+
+}
+.white-btn
+{ 
+	border: 1px solid transparent;
+	border-width: 1px;
+	border-color: black;
+	font-weight: 500;
+	padding: 14px 31px;
+	background: transparent;
+	color: black;
+}
+
+#btn-tray
+{
+	margin-top: 15px;
+}
+
+.Bg
+{
+	background-image: url("/strips copy.png");
+	max-height: 20%;
+	display: block;
+	width: 100%;
+	background-repeat: repeat-x;
+	height: 70px;
+	right: 0px;
+
+}
+.bottom
+{
+	position: absolute;
+	top: 100%;
+	transform: translate(0,-100%);
+}
+
+.coder
+{
+	background-image: url("/coder.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 30em;
+	height: 30em;
+}
+
